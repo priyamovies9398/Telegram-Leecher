@@ -9,11 +9,11 @@
 
 # @markdown <br>
 
-API_ID = 0  # @param {type: "integer"}
-API_HASH = ""  # @param {type: "string"}
-BOT_TOKEN = ""  # @param {type: "string"}
-USER_ID = 0  # @param {type: "integer"}
-DUMP_ID = 0  # @param {type: "integer"}
+API_ID = "25209455"  # @param {type: "integer"}
+API_HASH = "a98a05c04b469f8ed80e1e543c84e515"  # @param {type: "string"}
+BOT_TOKEN = "6829297086:AAEp_sa3f6JygTnytV3lihWCcZZdX74gWDQ"  # @param {type: "string"}
+USER_ID = "1337013299"  # @param {type: "integer"}
+DUMP_ID = "-1002159002178"  # @param {type: "integer"}
 
 
 import subprocess, time, json, shutil, os
