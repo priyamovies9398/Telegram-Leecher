@@ -24,9 +24,9 @@ async def start(client, message):
         [
             [
                 InlineKeyboardButton(
-                    "Repository 🦄", url="https://github.com/XronTrix10/Telegram-Leecher"
+                    "Repository 🦄", url="https://t.me/Sai_File_Store_CC"
                 ),
-                InlineKeyboardButton("Support 💝", url="https://t.me/Colab_Leecher"),
+                InlineKeyboardButton("Support 💝", url="https://t.me/Sai_File_Store_CC"),
             ],
         ]
     )
@@ -266,12 +266,12 @@ async def handle_options(client, callback_query):
         )
     elif callback_query.data == "set-prefix":
         await callback_query.message.edit_text(
-            "Send a Text to Set as PREFIX by REPLYING THIS MESSAGE »"
+            "Send a Text to Set as PREFIX by REPLYING THIS MESSAGE @djreme»"
         )
         BOT.State.prefix = True
     elif callback_query.data == "set-suffix":
         await callback_query.message.edit_text(
-            "Send a Text to Set as SUFFIX by REPLYING THIS MESSAGE »"
+            "Send a Text to Set as SUFFIX by REPLYING THIS MESSAGE @djreme»"
         )
         BOT.State.suffix = True
     elif callback_query.data in [
@@ -332,7 +332,7 @@ async def handle_options(client, callback_query):
         )
         MSG.status_msg = await colab_bot.send_message(
             chat_id=OWNER,
-            text="#STARTING_TASK\n\n**Starting your task in a few Seconds...🦐**",
+            text="#STARTING_TASK\n\n**Starting your task in a few Seconds...@djreme🦐**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("Cancel ❌", callback_data="cancel")],
@@ -437,11 +437,11 @@ async def help_command(client, message):
                 [
                     InlineKeyboardButton(  # Opens a web URL
                         "Channel 📣",
-                        url="https://t.me/Colab_Leecher",
+                        url="https://t.me/Sai_File_Store_CC",
                     ),
                     InlineKeyboardButton(  # Opens a web URL
                         "Group 💬",
-                        url="https://t.me/Colab_Leecher_Discuss",
+                        url="https://t.me/PriyaMovis",
                     ),
                 ],
             ]
